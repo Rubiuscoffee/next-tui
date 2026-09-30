@@ -1,0 +1,17 @@
+[package]
+name = "ndev"
+version = "0.1.0"
+edition = "2021"
+authors = ["ndev contributors"]
+description = "Next.js 16 Dev Companion TUI built with Rust, Ratatui, and Tokio"
+
+[dependencies]
+ratatui = "0.29"
+crossterm = { version = "0.28", features = ["event-stream"] }
+tokio = { version = "1.40", features = ["full"] }
+tokio-stream = "0.1"
+notify = "6.1"
+regex = "1.10"
+walkdir = "2.5"
+sysinfo = "0.31"
+dotenvy = "0.15"
